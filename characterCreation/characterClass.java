@@ -1,3 +1,5 @@
+package characterCreation;
+
 public class characterClass {
     private String sex;
     private int walkingSpeed;

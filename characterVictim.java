@@ -1,4 +1,6 @@
-public class characterVictim  extends characterClass{
+import characterCreation.characterClass;
+
+public class characterVictim  extends characterClass {
     @Override
     public void setWalkingSpeed(int walkingSpeed) {
         super.setWalkingSpeed(walkingSpeed);

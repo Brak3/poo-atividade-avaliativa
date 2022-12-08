@@ -1,4 +1,6 @@
-public class characterAassassin  extends  characterClass {
+
+package characterCreation;
+public class characterAassassin  extends characterClass {
 
     @Override
     public void setAge(int age) {
@@ -29,5 +31,6 @@ public class characterAassassin  extends  characterClass {
     public String getSex() {
         return super.getSex();
     }
+
 
 }
