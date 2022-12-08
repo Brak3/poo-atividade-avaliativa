@@ -1,14 +1,9 @@
-import characterCreation.characterClass;
+package characterCreation;
 
-public class characterVictim  extends characterClass {
+public class characterVictim extends characterClass{
     @Override
     public void setWalkingSpeed(int walkingSpeed) {
         super.setWalkingSpeed(walkingSpeed);
-    }
-
-    @Override
-    public void setAge(int age) {
-        super.setAge(age);
     }
 
     @Override
@@ -17,8 +12,8 @@ public class characterVictim  extends characterClass {
     }
 
     @Override
-    public int getWalkingSpeed() {
-        return super.getWalkingSpeed();
+    public void setAge(int age) {
+        super.setAge(age);
     }
 
     @Override
@@ -31,4 +26,8 @@ public class characterVictim  extends characterClass {
         return super.getSex();
     }
 
+    @Override
+    public int getWalkingSpeed() {
+        return super.getWalkingSpeed();
+    }
 }
