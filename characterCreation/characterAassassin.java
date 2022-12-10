@@ -39,5 +39,4 @@ public class characterAassassin  extends characterClass {
         return assassinDamage;
     }
 
-
 }

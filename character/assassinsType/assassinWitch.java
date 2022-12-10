@@ -14,7 +14,7 @@ public class assassinWitch extends characterAassassin {
         characterAassassin Assassino = new characterAassassin();
         setAge(200);
         setSex("Feminono");
-        setWalkingSpeed(6);
+        setWalkingSpeed(0);
 
     }
     public void witchAttack(){

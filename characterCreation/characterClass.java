@@ -1,4 +1,6 @@
 package characterCreation;
+import java.util.Random;
+import java.util.random.RandomGenerator;
 
 public class characterClass {
     private String sex;
@@ -27,6 +29,11 @@ public class characterClass {
 
     public void setAge(int age) {
         this.age = age;
+    }
+    public void generateWalkingSpeed(){
+        Random generateRandom = new Random();
+        setWalkingSpeed(generateRandom.nextInt(6));
+
     }
 
 }
