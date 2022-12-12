@@ -7,7 +7,8 @@ public class assassinLeatherFace extends characterAassassin {
     public void initLeatherFace(){
         setAge(40);
         setSex("Maculino");
-        setWalkingSpeed(2);
+        setWalkingSpeed(0);
+        setAssassinDamage(leatherFaceDamage);
     }
     public void leatherFaceAttack(){
         setAssassinDamage(leatherFaceDamage);

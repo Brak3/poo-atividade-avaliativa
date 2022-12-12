@@ -13,12 +13,13 @@ public class assassinWitch extends characterAassassin {
     public void witchInit(){
         characterAassassin Assassino = new characterAassassin();
         setAge(200);
-        setSex("Feminono");
+        setSex("Feminino");
         setWalkingSpeed(0);
-
-    }
-    public void witchAttack(){
         setAssassinDamage(assassinWitchDamage);
 
+    }
+    public int witchAttack(){
+        setAssassinDamage(assassinWitchDamage);
+        return 0;
     }
 }
